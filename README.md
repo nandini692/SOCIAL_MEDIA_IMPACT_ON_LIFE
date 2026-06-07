@@ -3,202 +3,265 @@
 
 ## 📌 Project Overview
 
-The **Social Media Impact on Life Dashboard** is a Power BI data analytics project designed to analyze how social media usage affects students' daily lives, academic performance, sleep patterns, and mental health.
+The **Social Media Impact on Life Analysis Dashboard** is an Excel 2021-based data analytics project that examines how social media usage influences students' academic performance, sleep patterns, and mental health.
 
-This dashboard provides insights into student behavior across different countries, educational levels, genders, and social media platforms. The goal is to identify trends and patterns that help understand the relationship between social media usage and overall well-being.
-
----
-
-## 🎯 Problem Statement
-
-Social media has become an integral part of students' lives. While it offers communication, learning, and entertainment opportunities, excessive usage may negatively affect academic performance, mental health, and sleep quality.
-
-Educational institutions, researchers, and policymakers need data-driven insights to understand:
-
-* How much time students spend on social media.
-* Which platforms are most frequently used.
-* Whether social media impacts academic performance.
-* How social media usage relates to sleep and mental health.
-* Differences in behavior across countries, genders, and academic levels.
+Using Excel 2021 Pivot Tables, Pivot Charts, Slicers, and Dashboard Design techniques, this project transforms raw student data into meaningful insights for understanding social media behavior and its overall impact on student life.
 
 ---
 
-## 🎯 Project Goal
+# 🎯 Problem Statement
 
-To analyze student social media usage patterns and measure their impact on academic performance, sleep habits, and mental well-being using interactive Power BI visualizations.
+Students spend a significant amount of time on social media platforms such as Facebook, Instagram, TikTok, YouTube, Snapchat, and LinkedIn. While social media provides educational and communication benefits, excessive usage may affect academic performance, mental health, and sleeping habits.
 
----
-
-## 📊 Dataset Description
-
-The dataset contains student-level information with the following fields:
-
-| Column Name                  | Description                                           |
-| ---------------------------- | ----------------------------------------------------- |
-| Student_ID                   | Unique student identifier                             |
-| Age                          | Student age                                           |
-| Gender                       | Male/Female                                           |
-| Academic_Level               | High School, Undergraduate, Graduate                  |
-| Country                      | Student country                                       |
-| Avg_Daily_Usage_Hours        | Average social media usage per day                    |
-| Most_Used_Platform           | Most frequently used social media platform            |
-| Affects_Academic_Performance | Indicates whether social media affects studies        |
-| Sleep_Hours_Per_Night        | Average sleep duration                                |
-| Mental_Health_Score          | Mental health rating score                            |
-| Overall_Impact               | Overall impact category (Positive, Neutral, Negative) |
+The challenge is to analyze student social media behavior and identify patterns that can help understand its impact on overall well-being.
 
 ---
 
-## 🛠 Tools Used
+# 🎯 Goal
 
-* Microsoft Excel
-* Power BI
-* Power Query
-* DAX (Data Analysis Expressions)
+To create an interactive Excel 2021 dashboard that analyzes student social media usage and measures its impact on academic performance, sleep duration, and mental health.
 
 ---
 
-## 📂 Data Preparation
+# 📊 Dataset Overview
 
-### Data Cleaning Steps
+The dataset contains student demographic information, social media usage patterns, sleep habits, and mental health indicators.
 
-* Checked for missing values.
-* Validated data types.
-* Removed duplicate records.
-* Standardized categorical values.
-* Verified numerical ranges for:
+### Dataset Fields
+
+| Column Name                  | Description                           |
+| ---------------------------- | ------------------------------------- |
+| Student_ID                   | Unique identifier of student          |
+| Age                          | Age of student                        |
+| Gender                       | Male / Female                         |
+| Academic_Level               | High School, Undergraduate, Graduate  |
+| Country                      | Student's country                     |
+| Avg_Daily_Usage_Hours        | Average daily social media usage      |
+| Most_Used_Platform           | Frequently used social media platform |
+| Affects_Academic_Performance | Indicates impact on academics         |
+| Sleep_Hours_Per_Night        | Average sleep hours                   |
+| Mental_Health_Score          | Mental health score                   |
+| Overall_Impact               | Positive, Neutral, or Negative impact |
+
+---
+
+# 🛠 Tools Used
+
+### Microsoft Excel 2021
+
+Features Used:
+
+* Pivot Tables
+* Pivot Charts
+* Slicers
+* Calculated Fields
+* Conditional Formatting
+* Dashboard Design
+* Data Cleaning Techniques
+* Excel Formulas
+
+---
+
+# 📋 Data Preparation
+
+Before creating the dashboard, the following data preparation steps were performed:
+
+### 1. Data Validation
+
+* Verified column names.
+* Checked data consistency.
+* Reviewed categorical values.
+
+### 2. Missing Value Check
+
+* Identified blank or incomplete records.
+* Corrected or removed invalid entries.
+
+### 3. Duplicate Check
+
+* Removed duplicate Student_ID records.
+
+### 4. Data Formatting
+
+* Converted numerical fields into appropriate formats.
+* Standardized text values.
+
+### 5. Quality Validation
+
+* Checked ranges for:
 
   * Age
   * Daily Usage Hours
   * Sleep Hours
   * Mental Health Score
-* Ensured data consistency across countries and platforms.
 
 ---
 
-## 📈 Dashboard KPIs
+# 📈 Dashboard KPIs
 
-### 1. Total Students
+### Total Students
 
-Displays the total number of students included in the analysis.
+Displays total number of students in the dataset.
 
-### 2. Average Daily Usage Hours
+### Average Daily Usage Hours
 
-Shows the average time spent on social media per day.
+Shows average social media usage per day.
 
-### 3. Most Used Platform
+### Most Used Platform
 
-Identifies the platform with the highest number of active users.
-
----
-
-## 📊 Dashboard Visualizations
-
-### Platform Usage by Gender
-
-* Compares platform preferences between male and female students.
-* Identifies gender-specific social media trends.
-
-### Social Media Usage vs Sleep Hours
-
-* Analyzes the relationship between daily social media usage and sleeping patterns.
-
-### Gender Distribution
-
-* Shows overall student distribution by gender.
-
-### Country-wise Student Distribution
-
-* Displays student participation across countries.
-
-### Mental Health Analysis
-
-* Examines mental health scores relative to social media usage levels.
-
-### Platform Popularity Analysis
-
-* Highlights the most frequently used social media platforms.
-
-### Country Filter (Slicer)
-
-* Allows users to analyze data for specific countries.
+Highlights the platform with the highest number of users.
 
 ---
 
-## 🔍 Key Business Questions
+# 📊 Dashboard Analysis
 
-1. Which social media platform is most popular among students?
-2. How many hours do students spend on social media daily?
-3. Does social media usage affect academic performance?
+## 1. Platform Usage by Gender
+
+**Objective:**
+Compare social media platform preferences between male and female students.
+
+**Insights:**
+
+* Most popular platforms among students.
+* Gender-wise usage differences.
+
+---
+
+## 2. Sleep Hours Analysis
+
+**Objective:**
+Analyze the relationship between social media usage and sleeping patterns.
+
+**Insights:**
+
+* Average sleep duration.
+* Sleep variation among heavy and light users.
+
+---
+
+## 3. Gender Distribution
+
+**Objective:**
+Understand the demographic distribution of students.
+
+**Insights:**
+
+* Percentage of male students.
+* Percentage of female students.
+
+---
+
+## 4. Country-wise Student Analysis
+
+**Objective:**
+Compare social media usage across countries.
+
+**Insights:**
+
+* Countries with highest participation.
+* Regional usage patterns.
+
+---
+
+## 5. Mental Health Analysis
+
+**Objective:**
+Evaluate how social media usage relates to mental health scores.
+
+**Insights:**
+
+* Mental health trends across usage levels.
+* High-risk usage patterns.
+
+---
+
+## 6. Platform Popularity Analysis
+
+**Objective:**
+Identify the most frequently used social media platforms.
+
+**Insights:**
+
+* Most preferred platforms.
+* Platform engagement distribution.
+
+---
+
+# 🔍 Key Business Questions
+
+1. Which social media platform is used the most?
+2. What is the average daily social media usage among students?
+3. Does social media affect academic performance?
 4. How does social media usage impact sleep duration?
-5. Is there a relationship between mental health and social media usage?
-6. Which countries show the highest social media engagement?
-7. Are there differences in platform usage between males and females?
-8. What is the overall impact (Positive, Neutral, Negative) of social media usage?
+5. Is there a relationship between social media usage and mental health?
+6. Which countries have the highest student participation?
+7. How does platform preference differ by gender?
+8. What is the overall impact of social media on students?
 
 ---
 
-## 💡 Insights That Can Be Derived
+# 📌 Dashboard Features
 
-* Identification of high social media usage groups.
-* Platform preference trends by gender and country.
-* Correlation between sleep hours and social media consumption.
-* Impact of social media on academic performance.
-* Mental health patterns among students with different usage levels.
-* Country-wise social media behavior comparison.
+✅ Interactive Slicers
 
----
+✅ Country-Level Filtering
 
-## 📌 Dashboard Features
+✅ Dynamic Pivot Charts
 
-✅ Interactive Filters
-✅ Country-Level Analysis
-✅ Gender-Based Insights
+✅ KPI Summary Cards
+
+✅ Gender-Based Analysis
+
 ✅ Platform Usage Analysis
-✅ Academic Performance Impact Analysis
-✅ Sleep Pattern Monitoring
-✅ Mental Health Evaluation
-✅ Dynamic KPI Cards
+
+✅ Sleep Pattern Insights
+
+✅ Mental Health Monitoring
+
+✅ User-Friendly Dashboard Layout
 
 ---
 
-## 🚀 Future Enhancements
+# 💡 Expected Outcomes
 
-* Predictive analysis for academic performance risk.
-* Social media addiction risk scoring.
-* Trend analysis over time.
-* Advanced correlation analysis using DAX measures.
-* Machine learning integration for behavioral prediction.
+The dashboard helps stakeholders:
+
+* Understand student social media behavior.
+* Identify excessive social media usage patterns.
+* Monitor academic impact indicators.
+* Analyze sleep and mental health trends.
+* Support data-driven decision-making in education and student wellness.
 
 ---
 
-## 📷 Dashboard Preview
+# 📷 Dashboard Preview
 
-### Dataset Sample
+### Worksheet 1: Raw Data
 
-Shows student demographic, academic, social media usage, sleep, and mental health information.
+Contains student demographic and social media usage records.
 
-### Dashboard
+### Worksheet 2: Dashboard
 
-Interactive Power BI dashboard providing insights into:
+Interactive Excel 2021 dashboard with:
 
-* Student Count
-* Average Daily Usage Hours
-* Most Used Platform
-* Gender Analysis
-* Country Analysis
-* Sleep & Mental Health Impact
+* KPI Cards
+* Pivot Charts
+* Slicers
+* Country Filters
+* Platform Analysis
+* Mental Health Analysis
+
+---
+
+# 🚀 Conclusion
+
+This Excel 2021 dashboard provides a comprehensive analysis of social media usage among students and its impact on academic performance, sleep quality, and mental health. Through interactive visualizations and filtering capabilities, users can explore patterns and gain actionable insights from the data.
 
 ---
 
 ## 👨‍💻 Author
 
-**Data Analyst Portfolio Project**
-Project: **Social Media Impact on Life Analysis Dashboard**
-Tool: **Power BI**
-
----
-
-### GitHub Repository Description (Short Version)
-
-**Social Media Impact on Life Dashboard** is a Power BI project that analyzes student social media usage patterns and their impact on academic performance, sleep quality, and mental health. The dashboard provides interactive insights through KPIs, country-wise analysis, gender comparisons, and platform usage trends to support data-driven decision-making.
+**Project:** Social Media Impact on Life Analysis Dashboard
+**Tool:** Microsoft Excel 2021
+**Project Type:** Data Analytics Dashboard
+**Domain:** Education & Social Media Analytics
