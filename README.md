@@ -1,7 +1,7 @@
 # SOCIAL_MEDIA_IMPACT_ON_LIFE
 # Social Media Impact on Life Analysis Dashboard
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Social Media Impact on Life Analysis Dashboard** is an Excel 2021-based data analytics project that examines how social media usage influences students' academic performance, sleep patterns, and mental health.
 
@@ -9,7 +9,7 @@ Using Excel 2021 Pivot Tables, Pivot Charts, Slicers, and Dashboard Design techn
 
 ---
 
-# 🎯 Problem Statement
+#  Problem Statement
 
 Students spend a significant amount of time on social media platforms such as Facebook, Instagram, TikTok, YouTube, Snapchat, and LinkedIn. While social media provides educational and communication benefits, excessive usage may affect academic performance, mental health, and sleeping habits.
 
@@ -17,13 +17,13 @@ The challenge is to analyze student social media behavior and identify patterns 
 
 ---
 
-# 🎯 Goal
+# Goal
 
 To create an interactive Excel 2021 dashboard that analyzes student social media usage and measures its impact on academic performance, sleep duration, and mental health.
 
 ---
 
-# 📊 Dataset Overview
+# Dataset Overview
 
 The dataset contains student demographic information, social media usage patterns, sleep habits, and mental health indicators.
 
@@ -45,7 +45,7 @@ The dataset contains student demographic information, social media usage pattern
 
 ---
 
-# 🛠 Tools Used
+#  Tools Used
 
 ### Microsoft Excel 2021
 
@@ -62,7 +62,7 @@ Features Used:
 
 ---
 
-# 📋 Data Preparation
+# Data Preparation
 
 Before creating the dashboard, the following data preparation steps were performed:
 
@@ -97,7 +97,7 @@ Before creating the dashboard, the following data preparation steps were perform
 
 ---
 
-# 📈 Dashboard KPIs
+# Dashboard KPIs
 
 ### Total Students
 
@@ -113,7 +113,7 @@ Highlights the platform with the highest number of users.
 
 ---
 
-# 📊 Dashboard Analysis
+# Dashboard Analysis
 
 ## 1. Platform Usage by Gender
 
@@ -187,7 +187,7 @@ Identify the most frequently used social media platforms.
 
 ---
 
-# 🔍 Key Business Questions
+# Key Business Questions
 
 1. Which social media platform is used the most?
 2. What is the average daily social media usage among students?
@@ -200,7 +200,7 @@ Identify the most frequently used social media platforms.
 
 ---
 
-# 📌 Dashboard Features
+#  Dashboard Features
 
 ✅ Interactive Slicers
 
@@ -222,7 +222,7 @@ Identify the most frequently used social media platforms.
 
 ---
 
-# 💡 Expected Outcomes
+#  Expected Outcomes
 
 The dashboard helps stakeholders:
 
@@ -234,7 +234,7 @@ The dashboard helps stakeholders:
 
 ---
 
-# 📷 Dashboard Preview
+#  Dashboard Preview
 
 ### Worksheet 1: Raw Data
 
@@ -253,13 +253,13 @@ Interactive Excel 2021 dashboard with:
 
 ---
 
-# 🚀 Conclusion
+#  Conclusion
 
 This Excel 2021 dashboard provides a comprehensive analysis of social media usage among students and its impact on academic performance, sleep quality, and mental health. Through interactive visualizations and filtering capabilities, users can explore patterns and gain actionable insights from the data.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Project:** Social Media Impact on Life Analysis Dashboard
 **Tool:** Microsoft Excel 2021
